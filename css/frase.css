@@ -1,0 +1,13 @@
+
+.frase{
+    text-align: center;
+    margin-block:5rem ;
+    margin-inline: 0;
+}
+
+.frase__texto{
+    margin-block-end: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+}

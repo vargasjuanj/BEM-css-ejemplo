@@ -1,0 +1,28 @@
+/* El contenedor,  card , boton y frase son bloques o componentes porque se pueden reutilizar*/
+
+@import 'contenedor.css';
+/* no coloco card dentro de contenedor, porque el contenedor se podría usar en otra parte sin cards */
+
+@import 'card.css';
+@import 'boton.css';
+@import 'frase.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* tamaño rem base, si cambia, todas las propiedades que usan rem cambian proprorcionalmente a esta medida */
+    font-size: 16px;
+}
+
+body {
+    background-color: #f6f6fe;
+    font-family: 'Manjari', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

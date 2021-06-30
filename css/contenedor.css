@@ -1,0 +1,14 @@
+.contenedor {
+    /* se hace uso de propiedades logicas de css, en vez de las fisicas en esta parte */
+    max-inline-size: 60rem;
+    inline-size: 90%;
+    /* arriba y abajo cero */
+    margin-block: 0;
+    /* centra horizontalmente */
+    margin-inline: auto;
+}
+
+.contenedor__cards{
+    margin-block: 5rem;
+    margin-inline: 0;
+}

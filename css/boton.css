@@ -1,0 +1,46 @@
+.boton {
+    border: none;
+    min-inline-size: 11rem;
+    block-size: 3rem;
+    /* este inline-bloc me sirve para poder agregarle el padding o quitarselo, es decir editarlo */
+    display: inline-block;
+    padding-inline: 2rem;
+    padding-block: 0rem;
+    color: white;
+    border-radius: 6rem;
+    text-decoration: none;
+    /* Este display va a ser importante para pdoer poner el texto a la izquierda y el icono a la derecha, es decir que sus elementos se comporten con flexblox */
+    /* Le podría poner display:flex, pero abarcaria todo el ancho, entonces queremos que sea de bloque, pero de tipo linea */
+    display: inline-flex;
+    /* ahora con justify colocamos texto a la izquierda e icono a la derecha */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #403cc2;
+    transition: .3s ease all;
+
+}
+
+.boton:hover {
+    background-color: #181881;
+    cursor: pointer;
+}
+
+/* modificador */
+
+.boton--absoluto {
+    position: absolute;
+    right: 1rem;
+    bottom: -1.5rem;
+}
+
+.boton--verde{
+    background-color: #7ba771;
+}
+
+.boton--verde:hover{
+    background-color: #476d3f;
+}
+
+.boton__texto{
+    font-weight: 600;
+}

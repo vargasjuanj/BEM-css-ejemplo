@@ -1,0 +1,47 @@
+/* es el bloque */
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    /* con relative el buton podra posicionarse en referencia a la card, pero debe tener relative el boton */
+    position: relative;
+    margin-block-end: 3rem;
+}
+
+/* elemento */
+
+.card__thumbnail {
+    inline-size: 20rem;
+    block-size: 10rem;
+    margin-inline-end: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* obligamos a la imagen que ocupe el 100% solo de su contenedor (el <a>) por lo tanto se achica */
+
+.card__img {
+    inline-size: 100%;
+}
+
+.card__titulo {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-block-end: 1.5rem;
+}
+
+.card__enlace-titulo {
+    color: coral;
+}
+
+.card__extracto {
+    line-height: 1.5rem;
+    color: #6d6d6d;
+    margin-block-end: 1.5rem;
+}
+
+/* modificador */
